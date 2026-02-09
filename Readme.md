@@ -80,11 +80,7 @@ The standalone visualizer provides a focused view of the orbital mechanics witho
 ### 4.4. System Operation Preview
 A complete video demonstration of the application interface, including dynamic satellite injection and real-time physics propagation, is available below.
 
-<video src="assets/APP-Preview.mp4" controls="controls" style="max-width: 100%;">
-    Your browser does not support the video tag. Please refer to assets/APP-Preview.mp4 directly.
-</video>
-
-*[Video Reference: assets/APP-Preview.mp4]*
+![System Operation Preview](assets/APP-Preview.gif)
 
 ## 5. CODE REFERENCE
 
