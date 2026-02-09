@@ -82,6 +82,8 @@ A complete video demonstration of the application interface, including dynamic s
 
 ![System Operation Preview](assets/APP-Preview.gif)
 
+*[Video Reference: assets/APP-Preview.mp4]*
+
 ## 5. CODE REFERENCE
 
 The core orbital propagation logic is defined as follows (excerpt from `orbit.py`):
@@ -102,5 +104,26 @@ def position(self, t):
     
     return np.array([x, y, z])
 ```
+
 ## 6. CONCLUSION
+
 The Orbital Mission Control System demonstrates a robust application of numerical methods to simulate astrodynamics. By integrating physics-based modeling with modern visualization libraries, the tool provides a viable platform for mission planning and educational demonstration of Keplerian mechanics. The modular design allows for future enhancements, such as incorporating perturbation effects (e.g., atmospheric drag, gravitational anomalies) and expanding the analytics suite to include collision probability assessments.
+
+### 6.1. Key Achievements
+* **Modular Architecture:** Separation of physics, UI, and visualization enables maintainability and extensibility.
+* **Real-time Simulation:** Dynamic satellite injection and propagation provide immediate feedback for mission design.
+* **Multi-interface Support:** Both web-based and standalone visualization options cater to different use cases.
+* **Conjunction Analysis:** Automated detection of close approach events for collision avoidance planning.
+
+### 6.2. Future Development
+* Integration of atmospheric drag models for higher-fidelity LEO propagation.
+* Machine learning-based anomaly detection for mission health monitoring.
+* Support for multi-body gravitational perturbations and resonance analysis.
+* Export functionality for mission planning tools (GMAT, STK compatibility).
+
+### 6.3. Educational Value
+This system serves as an effective teaching tool for:
+* Orbital mechanics fundamentals and Keplerian element transformations.
+* Three-dimensional coordinate systems and rotation matrices.
+* Real-time data visualization and interactive simulation design.
+* Software engineering best practices in scientific computing.
