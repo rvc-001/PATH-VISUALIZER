@@ -97,6 +97,6 @@ def position(self, t):
     
     return np.array([x, y, z])
 ```
-##6. CONCLUSION
+## 6. CONCLUSION
 
 The Orbital Mission Control System demonstrates a robust application of numerical methods to simulate astrodynamics. By integrating physics-based modeling with modern visualization libraries, the tool provides a viable platform for mission planning and educational demonstration of Keplerian mechanics.
