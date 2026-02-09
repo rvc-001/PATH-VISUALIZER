@@ -80,9 +80,9 @@ The standalone visualizer provides a focused view of the orbital mechanics witho
 ### 4.4. System Operation Preview
 A complete video demonstration of the application interface, including dynamic satellite injection and real-time physics propagation, is available below.
 
-[![System Operation Preview](assets/VISUALIZER%20TAB.png)](assets/APP-Preview.mp4)
+![System Operation Preview](assets/APP-Preview.gif)
 
-*Click the image above to view the system operation video (`assets/APP-Preview.mp4`).*
+*Figure 4: Animated preview of the Orbital Mission Control System in action.*
 
 ## 5. CODE REFERENCE
 
@@ -105,5 +105,4 @@ def position(self, t):
     return np.array([x, y, z])
 ```
 ## 6. CONCLUSION
-
 The Orbital Mission Control System demonstrates a robust application of numerical methods to simulate astrodynamics. By integrating physics-based modeling with modern visualization libraries, the tool provides a viable platform for mission planning and educational demonstration of Keplerian mechanics. The modular design allows for future enhancements, such as incorporating perturbation effects (e.g., atmospheric drag, gravitational anomalies) and expanding the analytics suite to include collision probability assessments.
